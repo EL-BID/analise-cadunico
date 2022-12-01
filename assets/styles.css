@@ -1,0 +1,219 @@
+/* Variáveis */
+
+:root {
+	--color-1: #214E9C;
+	--color-2: white;
+	--color-3: #F0F1F8;
+	/*--color-4: #3C88EC;*/
+	--color-4: #D85930;
+	/*--color-4: #008AF4;*/
+	--color-5: #008AF4;
+}
+
+/* ==================================================== */
+/* Esconder as barras do Plotly universalmente */
+.modebar{
+	display: none !important
+}
+
+/* ==================================================== */
+/* Elementos padrão */
+
+header, footer p {
+	background-image: -webkit-linear-gradient(left, var(--color-1), var(--color-5));
+}
+
+body {
+	background-color: var(--color-3);
+	min-height: 100vh;
+}
+
+header h1, footer p {
+	text-align: center;
+	color: white;
+	padding: 30px 0;
+	margin: 0;
+}
+
+header a {
+	text-decoration: none;
+}
+
+.row {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/* ==================================================== */
+/* Custom classes */
+
+.app-title {
+	margin:  auto;
+}
+
+@media screen and (max-width: 768px) {
+	.app-title {
+		order: 3;
+	}
+}
+
+.sub-header {
+	padding: 0;
+	margin: 0;
+	background-color: var(--color-2);
+}
+
+.sub-header * {
+	display: flex;
+}
+
+.sub-header a {
+	justify-content: center;
+	color: black;
+	border-bottom: solid 3px #dfdfdf;
+}
+
+.sub-header a.nav-link:hover, .sub-header a.nav-link.active {
+	color: var(--color-4);
+	border-bottom: solid 3px var(--color-4);
+}
+
+.sub-header a.nav-link.active {
+	font-weight: bold;
+}
+
+.page-container {
+	padding: 30px 0;
+	overflow: hidden;
+	max-width: 95vw;
+	margin: auto;
+}
+
+.app-logo {
+	max-height: 55px;
+	margin: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.app-logo {
+		text-align: center;
+	}
+}
+
+.coluna-logo-napcd, .coluna-logo-bid {
+	text-align: end;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.coluna-logo-bid {
+	justify-content: flex-start;
+}
+
+#bairros-pobreza {
+	text-align: center;
+}
+
+.dropdown {
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.graficos {
+	height: 300px;
+	max-width: 420px;
+  margin: 10px 0;
+  padding: 0;
+	border: solid 5px var(--color-2);
+	border-radius: 7px;
+	position: relative;
+	z-index: 2;
+	transition: all .25s ease;
+}
+
+.pull-up, #graph-anual, .div-sankey {
+  box-shadow: 0px 0px 5px 2px #0000001f;
+}
+
+.pull-up:hover {
+  box-shadow: 0px 0px 15px 7px #0000001f;
+	transform: translate3d(0px, -1px, 0px);
+}
+
+#graph-mapa-Recife {
+	background-color: var(--color-3) !important;
+  position: relative;
+  left: -165px;
+  top: 10px;
+  width: 550px;
+  height: 500px;
+}
+
+.div-mapas-choropleth {
+	max-width: 580px;
+  margin: 10px 10px;
+  padding: 0;
+  background-color: var(--color-2);
+	border: solid 5px var(--color-2);
+	border-radius: 7px;
+	transition: all .25s ease;
+}
+
+
+.mapas-choropleth {
+	margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.div-mapas-choropleth {
+		max-width: 90vw;
+	}
+}
+
+.div-mapas-choropleth h2 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.row-mapas {
+	justify-content: center;
+}
+
+#ano-range-slider .rc-slider-track {
+	background-color: var(--color-4);
+}
+
+#ano-range-slider .rc-slider-dot-active, #ano-range-slider .rc-slider-handle {
+	border-color: var(--color-4);
+}
+
+.Select-value, .Select-placeholder {
+	text-align: center;
+}
+
+.div-sankey {
+	margin-top: 10px;
+	background-color: white;
+}
+
+.pergunta-sankey {
+	font-size: 16pt;
+	text-align: center;
+	margin-top: 22px;
+	position: relative;
+	z-index: 2;
+}
+
+#graph-sankey {
+	margin-top: -20px;
+}
+
+.texto-info {
+	font-size: 16pt;
+	text-align: justify;
+}
+
+#graph-anual {
+	height: 350px !important;
+}
