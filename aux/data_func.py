@@ -141,7 +141,7 @@ def mapa_choropleth(df, var_local, gini=False):
         color='valor',
         center = {"lat": -8.04090, "lon": -34.92923},
         mapbox_style="open-street-map",
-        zoom=10.35,
+        zoom=10.2,
         opacity=.6,
         )
     mapa_fig.update_geos(fitbounds='locations', visible=False)
