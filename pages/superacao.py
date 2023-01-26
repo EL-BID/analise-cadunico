@@ -184,6 +184,12 @@ def plotar_grafico_sankey(var, anos):
 
     total = format(total, ',').replace(',','.')
 
+    sankey_chart.update_layout(
+        # font_family="Courier New",
+        font_color="black",
+        font_size=16,
+    )
+
     return sankey_chart, f'Comparamos a situação do indivíduo em {anos[0]} com o seu dado mais recente no CADÚnico, seja em {anos[1]} ou antes. Total de pessoas analisadas: **{total}**.'
 
 

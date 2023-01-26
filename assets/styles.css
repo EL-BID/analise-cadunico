@@ -217,3 +217,13 @@ header a {
 #graph-anual {
 	height: 350px !important;
 }
+
+.rodape-bairros {
+	text-align: center;
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
+g.sankey text.node-label {
+	text-shadow: none !important;
+}
