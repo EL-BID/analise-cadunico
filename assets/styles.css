@@ -136,7 +136,7 @@ header a {
   box-shadow: 0 2px 8px rgba(56,65,74,.15);
 }
 
-.pull-up:hover, #graph-anual *:hover {
+.pull-up:hover, #graph-anual:hover {
   box-shadow: 0px 0px 20px 3px rgba(56,65,74,.15);
 	transform: translate3d(0px, -1px, 0px);
 }
