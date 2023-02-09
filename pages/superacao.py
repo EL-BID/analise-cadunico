@@ -49,7 +49,7 @@ layout = html.Div([
             dcc.Markdown(id='texto-sankey', className='pergunta-sankey'),
             dcc.Graph(id='graph-sankey'),
             dcc.Markdown(id='rodape-sankey'),
-        ], className='div-sankey col-lg-10'),
+        ], className='div-sankey pull-up col-lg-10'),
     className='row justify-content-center'),
 ])
 

@@ -136,7 +136,7 @@ header a {
   box-shadow: 0 2px 8px rgba(56,65,74,.15);
 }
 
-.pull-up:hover {
+.pull-up:hover, #graph-anual *:hover {
   box-shadow: 0px 0px 20px 3px rgba(56,65,74,.15);
 	transform: translate3d(0px, -1px, 0px);
 }
@@ -207,6 +207,8 @@ header a {
 .div-sankey {
 	margin-top: 10px;
 	background-color: white;
+	border-radius: 7px;
+	transition: all .25s ease;
 }
 
 .pergunta-sankey {
@@ -229,6 +231,12 @@ header a {
 #graph-anual {
 	height: 350px !important;
 }
+
+#graph-anual, #graph-anual * {
+	border-radius: 7px;
+	transition: all .25s ease;
+}
+
 
 .rodape-bairros {
 	text-align: center;
