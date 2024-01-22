@@ -4,6 +4,7 @@
 
 ![Figura 1: Tela inicial](www/SCR-20221201-m5u.png)
 
+
 ## Tabela de Conteúdo:
 ---
 
