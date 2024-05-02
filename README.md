@@ -2,7 +2,7 @@
 
 # PoC Programa Bom de Morar
 
-![Figura 1: Tela inicial](www/SCR-20221201-m5u.png)
+![Figura 1: Página Análise Mensal](www/SCR-20221201-m9n.png)
 
 
 ## Tabela de Conteúdo:
