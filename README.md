@@ -1,4 +1,3 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=EL-BID_analise-cadunico&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=EL-BID_analise-cadunico)
 
 # PoC Programa Bom de Morar
 
